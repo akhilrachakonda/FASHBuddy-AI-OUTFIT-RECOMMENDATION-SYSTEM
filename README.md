@@ -40,3 +40,16 @@ FASHBuddy is an AI-powered personalized outfit recommendation system that levera
 ## 📄 License
 
 This project is for academic and research purposes.
+
+## 👥 Contributors
+
+This project was developed by a dedicated team of students from JNTUH University College of Engineering, Hyderabad:
+
+- **Rachakonda Akhil Goud** (21011M2104)
+- **Santh Ashwin Kumar** (21011M2110) 
+- **Godishala Rishi** (21011M2114)
+
+We extend our sincere gratitude to:
+
+- **Mrs. A. Renuka** – Project Guide  
+
