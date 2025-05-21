@@ -1,52 +1,42 @@
-# Project Title
-A brief description of the project.
 
-## Description
-This project includes various scripts for analyzing body shapes, fitness comparisons, and generating fashion recommendations based on user inputs.
+# FASHBuddy – AI Outfit Recommendation System 👗🤖
 
-## Features
-- Image search using Bing API to find fashion-related images.
-- Facial shape detection and recommendations for necklines.
-- Shoulder and waistline detection with recommendations for clothing styles.
-- Fitness comparison based on user height, weight, and shirt size.
+FASHBuddy is an AI-powered personalized outfit recommendation system that leverages computer vision and machine learning to suggest clothing tailored to a user's physical attributes and preferences. It simplifies fashion decisions by analyzing inputs like height, weight, dress size, skin tone, occasion, and a photograph.
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```
-2. Install required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+## 🌟 Features
 
-## Usage
-- To run the Bing image search:
-  ```bash
-  python bing_image_search.py
-  ```
-- To analyze facial shape:
-  ```bash
-  python facial shape detection system.py <image_path>
-  ```
-- To analyze shoulder and waistline:
-  ```bash
-  python Shoulder & waistline Detection system.py <image_path>
-  ```
-- To check fitness:
-  ```bash
-  python FitnessComparision system.py <height> <weight_kg> <shirt_size>
-  ```
+- 📸 **Image-Based Analysis**: Detects face shape, shoulder width, waistline, and skin tone from a user-uploaded photo.
+- 🧠 **Smart Recommendations**: Suggests outfits based on body shape, skin tone, and occasion using ML algorithms.
+- 🎨 **Color Matching**: Recommends colors that complement the user's skin tone.
+- 🧵 **Style Matching**: Matches face shape to necklines, shoulder type to sleeve styles, and waistline to bottom cuts.
+- 🔁 **Feedback Loop**: Incorporates user feedback to refine future recommendations.
+- 🔍 **Bing Image Search Integration**: Fetches real-world outfit images matching the recommendations.
 
-## Script Overview
-- **bing_image_search.py**: Searches for images based on a query and saves them.
-- **facial shape detection system.py**: Detects facial landmarks and classifies face shapes.
-- **Shoulder & waistline Detection system.py**: Estimates shoulder and waist lengths and classifies body types.
-- **Compare facial shape to necklines.py**: Recommends necklines based on detected face shapes.
-- **compare waistline to bottom cut.py**: Recommends bottom cuts based on waist types.
-- **FitnessComparision system.py**: Calculates BMI and determines body type.
-- **compare shoulder to sleeve.py**: Recommends sleeve types based on shoulder types.
-- **pre_prompt.py**: Merges results from various analyses into a single CSV file.
+## 🛠️ Technologies Used
 
-## License
-This project is licensed under the MIT License.
+- **Python 3.x**
+- **OpenCV** – Image processing
+- **MediaPipe** – Facial and body landmark detection
+- **Pandas, NumPy** – Data handling and analysis
+- **Bing Image Search API** – Outfit image retrieval
+- **Subprocess** – Script automation
+- **CSV** – Data storage
+
+## 🚀 How It Works
+
+1. **User Input**: Height, weight, shirt size, gender, skin tone, occasion, and a photo.
+2. **Image Processing**: Detects facial and body features using OpenCV and MediaPipe.
+3. **Feature Matching**: Matches detected features to style preferences.
+4. **Recommendation Generation**: Compiles outfit suggestions and fetches images using Bing API.
+5. **Output**: Displays personalized outfit suggestions with visuals.
+
+## 📈 Future Enhancements
+
+- Web-based UI for better accessibility
+- Real-time feedback integration
+- Expanded clothing database
+- Support for multiple outfit categories (e.g., seasonal, cultural)
+
+## 📄 License
+
+This project is for academic and research purposes.
